@@ -201,7 +201,7 @@ This ensures processed files exist before downstream notebooks are executed.
 - Orders:
   - revenue
 
-## Example Business Questions Answered
+## Business Questions Answered
 
 - Which customer segments generate the most lifetime value?
 - How does revenue trend month-over-month?
@@ -209,16 +209,6 @@ This ensures processed files exist before downstream notebooks are executed.
 - Which regions contribute most to revenue and profit?
 - How quickly do customers make a second purchase?
 - Do older customer cohorts produce stronger cumulative revenue?
-
-## Notes and Improvements
-
-- Database credentials are currently embedded in the SQL notebook.
-  - Recommended: move credentials to environment variables or a local config file excluded from version control.
-- Consider adding:
-  - a data dictionary for all columns,
-  - unit/data tests for validation rules,
-  - dashboard layer (Power BI/Tableau/Streamlit),
-  - parameterized SQL scripts outside notebook for production reuse.
 
 ## Outcome
 
@@ -228,5 +218,3 @@ This project demonstrates a full analytics lifecycle:
 - integrated dataset creation,
 - exploratory and business analytics,
 - SQL-based decision support.
-
-It is suitable as a portfolio project for Data Analyst and Junior Data Scientist roles.
